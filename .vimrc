@@ -1,4 +1,4 @@
-syntax on
+syntax enable
 filetype indent plugin on
 
 set incsearch
@@ -30,3 +30,7 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+
+" colorscheme badwolf
+set background=dark
+colorscheme solarized
