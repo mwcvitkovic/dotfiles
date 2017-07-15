@@ -1,3 +1,4 @@
+execute pathogen#infect()
 syntax enable
 filetype indent plugin on
 
@@ -32,5 +33,8 @@ noremap <Left> <NOP>
 noremap <Right> <NOP>
 
 " colorscheme badwolf
-set background=dark
+set background=light
 colorscheme solarized
+
+" jedi options
+let g:jedi#popup_on_dot = 0
