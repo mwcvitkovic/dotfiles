@@ -2,6 +2,7 @@ execute pathogen#infect()
 syntax enable
 filetype indent plugin on
 
+set term=screen-256color
 set incsearch
 set ignorecase
 set smartcase
