@@ -39,3 +39,14 @@ colorscheme solarized
 
 " jedi options
 let g:jedi#popup_on_dot = 0
+
+" Chrome style tab management 
+map <ESC>[1;5C <C-Right>
+map <ESC>[1;5D <C-Left>
+nnoremap <silent> <C-Right> :tabnext<CR>
+nnoremap <silent> <C-Left> :tabprev<CR>
+nnoremap <silent> <C-t>     :tabnew<CR>
+inoremap <silent> <C-Right> <Esc>:tabnext<CR>i
+inoremap <silent> <C-Left>   <Esc>:tabprev<CR>i
+inoremap <silent> <C-t>     <Esc>:tabnew<CR>
+
