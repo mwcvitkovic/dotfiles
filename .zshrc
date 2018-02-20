@@ -86,6 +86,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Adding alias for dotfile management
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
++alias wtf='ipython --pdb'
++alias l='ls -alhX'
 
 # Adding colors to directories
 eval `dircolors ~/.dir_colors/dircolors`
