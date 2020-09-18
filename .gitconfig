@@ -1,5 +1,7 @@
 [user]
 	email = mwcvitkovic@gmail.com
-	name = M. W. Cvitkovic
+	name = mwcvitkovic
 [push]
 	default = simple
+[credential]
+	useHttpPath = false
