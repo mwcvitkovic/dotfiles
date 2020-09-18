@@ -21,6 +21,12 @@ dotfiles checkout
 docfiles config --local status.showUntrackedFiles no
 ```
 
+1. Install [Vundle](https://github.com/VundleVim/Vundle.vim) and vim plugins:
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall 
+```
+
 
 # Edit
 
