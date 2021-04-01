@@ -87,3 +87,5 @@ source $ZSH/oh-my-zsh.sh
 # Adding alias for dotfile management
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+# Use ipdb for python debugging
+export PYTHONBREAKPOINT=ipdb.set_trace
