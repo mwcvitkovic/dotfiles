@@ -9,7 +9,7 @@ Based on <https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfile
 
 1. Add system-specific path modifications (e.g. adding miniconda installation `. ~/miniconda3/etc/profile.d/conda.sh`) to .zshrc
 
-1. (Optional) Install [broot](https://github.com/Canop/broot)
+1. (Optional) Install [fd](https://github.com/sharkdp/fd#installation)
 
 1. Add `alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'` to `/.zshrc`, log in and out to confirm the alias got set.
 
