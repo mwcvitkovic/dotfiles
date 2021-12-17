@@ -1,5 +1,7 @@
 Based on <https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/>.
 
+See also https://matt.sh/setup-2021-late for extra things worth adding.
+
 # Install on a new machine
 1. Install zsh and vim
 
